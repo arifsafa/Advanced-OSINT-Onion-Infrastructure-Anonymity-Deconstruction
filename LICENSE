@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 Arif Safa Batum
+Copyright (c) 2025 Project Erebus Contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,23 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+IMPORTANT NOTICE — INTENDED USE
+
+This software and associated documentation are intended solely for:
+
+  • Academic and educational research
+  • Defensive Cyber Threat Intelligence (CTI) operations
+  • Authorized security assessments and penetration testing
+  • Law enforcement and intelligence community use within legal frameworks
+
+The authors explicitly do NOT condone or authorize use of this framework for:
+
+  • Unauthorized access to computer systems or networks
+  • Surveillance, tracking, or deanonymization of individuals without consent
+  • Any activity that violates applicable local, national, or international law
+
+By using this software, you agree that you are solely responsible for ensuring
+your use complies with all applicable laws and regulations in your jurisdiction.
