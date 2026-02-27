@@ -1,0 +1,21 @@
+{
+  "target": "http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion",
+  "timestamp": 1772199747.9565916,
+  "sha256_fingerprint": "30d39c3bd7235201",
+  "artifacts": {
+    "bitcoin_wallets": [],
+    "monero_wallets": [],
+    "google_analytics": [],
+    "pgp_fingerprints": [],
+    "email_addresses": [
+      "browse-freely@3x.png",
+      "surveillance@3x.png",
+      "encryption@3x.png",
+      "block-trackers@3x.png",
+      "tor-logo@2x.png",
+      "fingerprinting@3x.png"
+    ],
+    "server_banner": "Apache",
+    "pgp_detected": false
+  }
+}

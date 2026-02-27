@@ -1,0 +1,14 @@
+{
+  "target": "https://www.facebookwkhpilnemxj7asber7cybhhnxkk6ds6ehbq6tlabfkqt7cyd.onion",
+  "timestamp": 1772199881.1762667,
+  "sha256_fingerprint": "e0bbf5dedf78370d",
+  "artifacts": {
+    "bitcoin_wallets": [],
+    "monero_wallets": [],
+    "google_analytics": [],
+    "pgp_fingerprints": [],
+    "email_addresses": [],
+    "server_banner": "ERROR: ConnectionError",
+    "pgp_detected": false
+  }
+}
