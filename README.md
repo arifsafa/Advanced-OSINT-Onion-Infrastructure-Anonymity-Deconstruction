@@ -25,7 +25,49 @@
 </div>
 
 ---
+## ⚡ Quick Start
 
+### Installation
+```bash
+# 1. Clone the repository
+git clone https://github.com/arifsafa/Advanced-OSINT-Onion-Infrastructure-Anonymity-Deconstruction.git
+cd Advanced-OSINT-Onion-Infrastructure-Anonymity-Deconstruction
+
+# 2. Create virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# 3. Install dependencies
+pip install requests[socks] stem
+
+# 4. Start Tor daemon
+tor &
+```
+
+### Usage
+```bash
+# Harvest artifacts from a single target
+python3 main.py harvest -u http://target.onion -o result.json
+
+# Correlate two sites — find shared operator
+python3 main.py correlate site1.json site2.json
+
+# Use custom Tor port
+python3 main.py harvest -u http://target.onion -p 9150
+```
+
+### Example Output
+```json
+{
+  "target": "http://target.onion",
+  "artifacts": {
+    "bitcoin_wallets": ["1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa"],
+    "google_analytics": ["UA-12345678-1"],
+    "server_banner": "Apache",
+    "pgp_detected": true
+  }
+}
+```
 ## The Core Thesis
 
 Cryptographic anonymity networks like Tor are **operationally fragile** even when they are mathematically sound. This repository synthesizes academic deanonymization research with practical OSINT tooling to demonstrate a singular, consistent finding across 136 court cases, 7 major research papers, and dozens of documented law enforcement operations:
